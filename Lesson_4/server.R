@@ -1,6 +1,6 @@
 # reactive outputs are created with a two step process:
-# 1. Add an R objec to the user-interface with ui.R
-# 2. Tell Shiny how to build th eobject in server.R. 
+# 1. Add an R object to the user-interface with ui.R
+# 2. Tell Shiny how to build the object in server.R. 
 # The object will be reactive if the code that builds it calls a widget value.
 
 # Step 2 after telling shiny where to display the R object in the ui
